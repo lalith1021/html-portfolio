@@ -43,7 +43,7 @@ a{
     margin-left: 180px;
 }
 
-@media (max-width:1000px)
+@media (min-width:1000px)
 {
     .pic{
         width: 50%;
