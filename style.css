@@ -1,0 +1,78 @@
+body{
+    background-color:#F6F1F1;
+}
+span{
+    font-weight: bold;
+    color: #146C94;
+}
+img{
+    float: left;
+    margin-right: 30px;
+    object-fit: cover;
+}
+.pandd{
+    display: inline-block;
+    height: 200px;
+}
+p,li{
+    color: #19A7CE;
+    text-align: justify;
+    font-size:1.2rem;
+}
+h1,h2{
+    color:#146C94;
+    margin-bottom: 5px;
+}
+h1{
+    text-align: center;
+}
+a{
+    float: right;
+    color:#146C94;
+}
+.academic{
+    display: block;
+}
+.academic>p{
+    margin-left: 195px;
+}
+.se>p{
+    margin-left: 195px;
+}
+.cert>ul{
+    margin-left: 180px;
+}
+
+@media (max-width:610px)
+{
+    img{
+        display: block;
+        object-fit: cover;
+        margin-left:165px;
+    }
+    h1,h2{
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .pandd>p{
+        text-align: center;
+    }
+    .academic>p{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .se>p{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .cert>ul{
+        margin-left: 0px;
+        text-align: center;
+    }
+    a{
+        text-align: center;
+        font-size:large;
+        margin-bottom: 20px;
+        margin-right: 100px;
+    }
+}
