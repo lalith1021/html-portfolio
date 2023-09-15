@@ -1,0 +1,88 @@
+body{
+    background-color:#F6F1F1;
+}
+span{
+    font-weight: bold;
+    color: #146C94;
+}
+img{
+    float: left;
+    margin-right: 30px;
+    object-fit: cover;
+}
+.pandd{
+    display: inline-block;
+    height: 200px;
+}
+p,li{
+    color: #19A7CE;
+    text-align: justify;
+    font-size:1.2rem;
+}
+h1,h2{
+    color:#146C94;
+    margin-bottom: 5px;
+}
+h1{
+    text-align: center;
+}
+a{
+    float: right;
+    color:#146C94;
+}
+.academic{
+    display: block;
+}
+.academic>p{
+    margin-left: 195px;
+}
+.se>p{
+    margin-left: 195px;
+}
+.cert>ul{
+    margin-left: 180px;
+}
+
+@media (max-width:420px){
+
+    h1{
+        font-size: 1.5rem;
+    }
+    h2{
+        margin-top: 30px;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .pic{
+        width: 50%;
+    }
+    .pic>img{
+        display: block;
+        width: 100%;
+        margin-left: 50%;
+        object-fit: cover;
+    }
+    .pandd>p{
+        display: block;
+        text-align: center;
+    }
+    .academic>p{
+        display: block;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .se>p{
+        display: block;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .cert>ul{
+        display: block;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .am>a{
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+}
